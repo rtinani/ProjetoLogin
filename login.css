@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0; 
+    font-family: 'Inter', sans-serif;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:   #8bd1f7;
+    background: linear-gradient(153deg, #b38496 0%, rgba(83, 0, 242, 1) 100%);
+}
+
+.card {
+    width: 50%;
+    max-width: 450px;
+    background: #fff;
+    padding: 34px; 
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  
+}
+
+.campo {
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 19ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo::placeholder {
+    color: #888787;
+}
+
+.campo:focus {
+    border-color: #180e09;
+}
+
+.btn {
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #00e913;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+
+.bnt:hover {
+    transform: scale(1.04);
+    background-color: #afd4eb;
+}
+
+p{
+    font-size: 0.9em;
+    color: #0a0202;
+}
+
+a {
+    font-size: 1.0em;
+    color: #1c05eb;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.0em;
+    font-weight: 600;
+    color: #631919;
+}
